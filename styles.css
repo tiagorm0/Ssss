@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+}
+
+}
+body {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Ocupa toda la pantalla */
+    margin: 0;
+}
+
+.botones {
+    display: flex;
+    gap: 20px; /* Espacio entre los botones */
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#noBtn {
+    position: relative;
+    background-color: #ff4d4d;
+    color: white;
+}
+
+button:first-child {
+    background-color: #4CAF50;
+    color: white;
+}
+img {
+    width: 300px; /* Tamaño pequeño */
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+body {
+    background-image: url("fondo.jpg");
+    background-size: cover; /* Asegura que ocupe toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100vh; /* Ajusta el alto al 100% de la pantalla */
+    width: 100vw; /* Ajusta el ancho al 100% */
+    margin: 0; /* Elimina márgenes */
+    padding: 0; /* Elimina espacios internos */
+}
+#siBtn, #noBtn {
+    width: 80px; /* Reduce el ancho */
+    height: auto; /* Mantiene la proporción */
+    cursor: pointer;
+}
+
+
+
